@@ -29,8 +29,6 @@
 
 ​		这个问题困扰了我很长的时间，因为API售卖平台，一般只会给一端调用得代码，而调用这段代码后，返回的一般是JSON格式的数据。为了解决这个问题，我在百度、谷歌、CSDN、GitHub等查阅很多资料，最终的一个解决方案是先根据返回的JSON数据生成实体类，最后通过实体类的的途径解析出我们想要的数据。
 
-​		
-
 ![image-20210312230931275](https://i.loli.net/2021/03/12/GFuWhTN7qUKLYjH.png)
 
 ## 1.2 文档助手
@@ -41,8 +39,6 @@
 
 2、对于Git的一些基本操作，比如获取最新的git pull、查询状态的git status、将代码提交到远端的git add、git commit、git push等；
 
-
-
 ![image-20210312231038307](https://i.loli.net/2021/03/12/Hspwd7gJ3OeyrKn.png)
 
 ![image-20210312231210516](https://i.loli.net/2021/03/12/EkcXR8LONvaMABY.png)
@@ -51,7 +47,18 @@
 
 ![image-20210312231412479](https://i.loli.net/2021/03/12/JPkocw8jvOLpgTB.png)
 
+# 二、基于UDP客户端二次开发的数据采集及分析
+
+## 2.1 数据采集及分析
+
+![image-20210319202940291](https://i.loli.net/2021/03/19/vDw4NQSx7HkA1gz.png)
+
+## 2.2 历史数据查询
+
+![image-20210319203105577](https://i.loli.net/2021/03/19/NOach6KdCtH4UJe.png)
+
+注：因为现在的计算机没有安装数据库、连接串口以及分辨率不够导致现在的程序无法运行。
+
 # 二、规划
 
 1、如果采用线程池是不是可以避免每次有新任务时都需要新建线程，而且在一定程度上提升性能？
-
