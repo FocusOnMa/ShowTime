@@ -24,7 +24,7 @@
 
 主要技术：SqlServer数据库、SQL。
 
-  ![image-20210410224144339](https://i.loli.net/2021/04/10/ft6RDO2459BYsZl.png)
+  ![image-20210410225359994](https://i.loli.net/2021/04/10/MJFY72WsPbvAl5u.png)
 
 ## 1.2 每日清单
 
